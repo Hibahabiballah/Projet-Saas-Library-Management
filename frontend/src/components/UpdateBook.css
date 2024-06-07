@@ -1,0 +1,112 @@
+.update-book-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #343434c2;
+  border-radius: 8px;
+  background-color: #292929a6;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+.mainForm{
+  margin-top: 0
+}
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.top-bar h3{
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+}
+
+h3 {
+  margin: 0;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  color: #888;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.close-btn:hover {
+  color: #555;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 20px;
+}
+
+.success-message {
+  color: green;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form > div {
+  margin-bottom: 15px;
+}
+.form-group input{
+  color: white;
+  
+}
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+input[type="checkbox"] {
+  width: auto;
+  margin-left: 10px;
+}
+
+button[type="submit"],
+button[type="button"] {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  margin-left: -15%;
+}
+
+button[type="button"].close-btn {
+  background-color: #c12915;
+  font-size: 20px;
+}
+
+button[type="submit"]:hover,
+button[type="button"]:hover {
+  background-color: #0056b3;
+}
+
+button[type="button"].close-btn:hover {
+  background-color: #82231098;
+  color: white;
+}

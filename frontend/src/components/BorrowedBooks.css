@@ -1,0 +1,64 @@
+/* BorrowedBooks.css */
+
+.borrowed-books-container {
+    margin-top: 20px;
+  }
+  p{
+    color: white;
+  }
+  
+  .borrowed-books-container h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  .borrowed-books-container .error-message {
+    color: red;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .borrowed-books-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .borrowed-books-container li {
+    background-color: #222;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .borrowed-books-container li p {
+    color: #fff;
+    margin: 5px 0;
+  }
+  
+  .borrowed-books-container li button {
+    background-color: #081587;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .borrowed-books-container li button:hover {
+    background-color: #845e54;
+  }
+  .return {
+    width: 200px;
+    background-color: rgb(39, 124, 123);
+    margin-left: 26%;
+    padding: 10px 20px;
+  }
+  .borrowedDIV{
+    width: 400px;
+    height: fit-content;
+    border: 1px solid #545454;
+    margin-left: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.264);
+  }

@@ -1,0 +1,109 @@
+.dashboard-container {
+  padding: 20px;
+  max-width: 1300px;
+  max-height: 700px;
+  margin: auto;
+}
+
+.welcome-message {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.statistics-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.userBooklist {
+  width: fit-content;
+  height: 200px; /* Adjusted height */
+  background-color: #d3d3d300;
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.264);
+  border-bottom-left-radius: 50px;
+  padding-top: 30px;
+  margin-left: 40%;
+}
+
+.statistic {
+  font-size: 18px;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 15px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  color: white;
+  background-color: #1f8e8e;
+  border: 1px solid #2d8888;
+  border-radius: 20px;
+}
+
+button:hover {
+  background-color: #1d72728e;
+  transition: 1s;
+}
+
+.booklist-container {
+  max-height: 200px; /* Adjusted height */
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding-top: 40px;
+  border-radius: 8px;
+  margin-left: 10%;
+}
+
+.UserBooks {
+  background-color: #3d3d3d60;
+  max-height: 200px; /* Adjusted height */
+}
+
+.book-item {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+}
+
+.book-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.book-author {
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.book-details {
+  font-size: 14px;
+  margin-top: 5px;
+  color: #555;
+}
+
+.error-message {
+  color: red;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  margin-top: 10px;
+}
